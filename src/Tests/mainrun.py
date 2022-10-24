@@ -11,23 +11,23 @@ from MovieTool.torrent_handler import torrent_handler
 sleep_time = 20 # Seconds.
 file_max_size = 3000 # In MB's.
 discard_low_content = False
-downloads_cache_path = '/home/ferdev/MovieToolRun/cache'
-movie_db_path = '/home/ferdev/MovieToolDB/'
+downloads_cache_path = ''
+movie_db_path = ''
 
 # Ombi parameters.
-ombi_host = 'http://mikoin.sytes.net:5000/'
-ombi_apikey = '5e7a7c736ea84fd3bfd69fb12890d62a'
+ombi_host = ''
+ombi_apikey = ''
 
 
 # jackett parameters.
-jackett_host = 'http://mikoin.sytes.net:9117/'
-jackett_apikey = 'z96avavpt0rmbakcr7h2c85ir8ukw3dq'
+jackett_host = ''
+jackett_apikey = ''
 
 
 # qBittorrent parameters.
-qb_host = 'http://mikoin.sytes.net:8080/'
-qb_user = 'admin'
-qb_pass = 'adminadmin'
+qb_host = ''
+qb_user = ''
+qb_pass = ''
 
 
 # ============================================================
