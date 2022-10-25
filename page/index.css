@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    
+    background-image: url('./fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/* Nav */
+
+nav {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+}
+
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    user-select: none;
+}
+
+
+
+.logo_icon, .github_logo {
+    width: 3rem;
+    margin: 0 1rem;
+    user-select: none;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .logo_icon {
+        display: none;
+    }
+
+    .title {
+        margin: 0 1rem;
+    }
+
+    .github_logo {
+        width: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 310px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .github_logo {
+        width: 1.5rem;
+    }
+}
+
+
+
+
+/* Header */
+
+header {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.logo_icon_dos {
+
+    width: 10rem;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.logo_container_dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
+.main_container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background: rgba(235, 235, 235, 0.973);
+    height: 25rem;
+    width: 17rem;
+    /* border: 1px rgb(170, 170, 170) solid; */
+    padding: 3rem;
+
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+
+
+header p, header a {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.info_text_div {
+    margin-top: 1rem;
+}
+
+.info_text {
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.download_zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.download_footer {
+    width: 15rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.download_footer p {
+    font-style: italic;
+}
+
+
+
+.buttons_download_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.windows_download {
+    background: rgb(47, 154, 255);
+}
+
+.windows_download:hover {
+    color: white;
+    background: rgb(33, 117, 196);
+    cursor: pointer;
+}
+
+
+.linux_download {
+    background: rgb(255, 172, 47);
+}
+
+.linux_download:hover {
+    color: white;
+    background: rgb(202, 136, 37);
+    cursor: pointer;
+}
+
+
+
+
+.buttons_download_div a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    font-weight: bold;
+    margin-top: .3rem;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .main_container {
+        width: 13rem;
+    }
+
+    .logo_icon_dos {
+        width: 7rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .main_container {
+        width: 11.5rem;
+        padding: 2rem;
+    }
+
+    .buttons_download_div a {
+        padding: 0.5rem 2rem;
+    }
+
+    .download_footer {
+        width: 10rem;
+    }
+
+}

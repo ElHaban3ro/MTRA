@@ -20,6 +20,8 @@ platforms = {'Windows': 'Windows', 'Linux': 'Linux', 'Mac': 'Darwin'}  # Platafo
 # - Windows:
 apps_commands_win = {'Ombi': 'https://github.com/ombi-app/ombi/releases/download/v4.29.2/win10-x64.zip', 'Jackett': 'winget install -e --id Jackett.Jackett', 'qBitTorrent': 'winget install -e --id qBittorrent.qBittorrent', 'Plex': 'winget install -e --id Plex.Plex', 'Python 3.9': 'winget install -e --id Python.Python.3.9'} # Clave = Nombre de la app. Valor = Comando winget.
 
+apps_commands_linux = {'qBittorrent': 'sudo apt install qbittorrent', 'qBittorrent_next', 'sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable', 'qBittorrent_install': 'sudo apt install qbittorrent', 'Jackett Prerequisite 1': 'sudo apt install mono-devel', 'Jackett Prerequisite 2', 'sudo apt install gnupg ca-certificates' }
+
 
 
 
