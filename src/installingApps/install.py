@@ -54,7 +54,23 @@ if continue_ask == 'Y':
             for command_count, command in enumerate(list(apps_commands_win.values())[::-1]): # Si se quiere instalar python, volveamos la lista e instalamos Python primero que todo.
                 
                 if 'http' in command: # Si es un link...
-                    pass
+                    if 'ombi' in command:
+                        print('\n\nDescargando Ombi...')
+                        wget.download(command, f'{actual_dir}/otherApps/ombi.zip')
+                        extract_ombi = zipfile.ZipFile(f'{actual_dir}/otherApps/ombi.zip', 'r')
+
+                        try:
+                            os.mkdir(f'{actual_dir}/otherApps/ombi')
+                        except:
+                            pass
+
+                        try:
+                            extract_ombi.extractall(path = f'{actual_dir}/otherApps/ombi')
+                        except:
+                            pass
+
+                        extract_ombi.close()
+                        os.remove(f'{actual_dir}/otherApps/ombi.zip')
 
                 else:
                     print(f'\n\nEjecutando el comando {command}...\n\n')
@@ -71,8 +87,7 @@ if continue_ask == 'Y':
 
                     
         else:
-            # for command_count, command in enumerate(list(apps_commands_win.values())[:-1]):
-            for command_count, command in enumerate(list(apps_commands_win.values())):
+            for command_count, command in enumerate(list(apps_commands_win.values())[:-1]):
                
                 if 'http' in command: # Si es un link...
                     if 'ombi' in command:
@@ -90,6 +105,7 @@ if continue_ask == 'Y':
                         except:
                             pass
 
+                        extract_ombi.close()
                         os.remove(f'{actual_dir}/otherApps/ombi.zip')
 
 
