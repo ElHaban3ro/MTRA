@@ -6,7 +6,7 @@
 - **qBittorrent** | Necesario para manejar los torrents! (y descargarlos)
 - **Jackett** | App de la cual se hace uso de su API para acceder a los torrents *[configurar]*.
 - **Ombi** | El medio por el cual se pide el contenido. *[configurar]*
-- **Plex** | Servicio para la visualización del contenido.
+- **Plex** | Servicio para la visualización del contenido. *[configurar]*
 
 
 # Download
