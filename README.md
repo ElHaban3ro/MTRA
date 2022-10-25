@@ -11,6 +11,6 @@
 
 # Download
 
-- **Windows**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-red.svg?style=flat-square)](https://github.com/ElHaban3ro/MTRA)
+- **Windows**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-red.svg?style=flat-square)](https://github.com/ElHaban3ro/MTRA/raw/main/v1.2-MTRA-WINDOWS.7z)
 
 - **Linux**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-blue.svg?style=flat-square)](https://github.com/ElHaban3ro/MTRA)
