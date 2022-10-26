@@ -166,5 +166,5 @@ cython_debug/
 
 ./MTRA.pyproj
 desktop.ini
-./MTRA.sln
+MTRA.sln
 ./MTRA.pyproj.user
