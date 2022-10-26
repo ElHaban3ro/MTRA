@@ -17,7 +17,7 @@ Cuando pongas a correr nuestro programa, recomendamos que lo haga desde una **co
 # Downloads
 
 ## MovieTool Run
-*Ejecutable para iniciar tu servidor de MovieTool (Necesario de configurar). Puedes generar tu proyecto configurado desde [nuestra web](https)*
+*Ejecutable para iniciar tu servidor de MovieTool (Necesario de configurar). Puedes generar tu proyecto configurado desde [nuestra web](https).*
 
 
 ### Download

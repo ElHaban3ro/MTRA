@@ -15,6 +15,8 @@ config_file = os.path.abspath('MovieToolConfig.ini')
 config = configparser.ConfigParser()
 config.read(config_file)
 
+print(config.sections())
+
 
 # Main parameters.
 sleep_time = config['General']['sleep_time'] # Seconds.
