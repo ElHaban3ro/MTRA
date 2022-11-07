@@ -1,6 +1,7 @@
 # MOVIEPY
 
 [![GitGub Repositorie](https://img.shields.io/badge/GitHub_Repositorie-MovieTool-gray.svg?style=flat-square&logo=github)](https://github.com/ElHaban3ro/MovieTool/)
+#### ⚠ ¡NO HAGAS GIT CLONE DEL REPOSITORIO SI NO ERES DESARROLLADOR, VISITA NUESTRA WEB OFICIAL CON DOCUMENTACIÓN Y PAQUETES LISTOS PARA EL USUARIO! ⚠
 
 
 ## Detalles del proyecto
@@ -22,9 +23,7 @@ Cuando pongas a correr nuestro programa, recomendamos que lo haga desde una **co
 
 ### Download
 
-- **Windows**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-red.svg?style=flat-square)](https)
-
-- **Linux**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-blue.svg?style=flat-square)](https)
+[![Visitar nuestra web](https://img.shields.io/badge/Visitar_nuestra_web-green.svg?style=flat-square)](https)
 
 
 
@@ -42,6 +41,12 @@ Cuando pongas a correr nuestro programa, recomendamos que lo haga desde una **co
 
 ### Download
 
-- **Windows**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-red.svg?style=flat-square)](https://elhaban3ro.github.io/MovieTool-User/)
+[![Visitar nuestra web](https://img.shields.io/badge/Visitar_nuestra_web-green.svg?style=flat-square)](https)
 
-- **Linux**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-blue.svg?style=flat-square)](https://elhaban3ro.github.io/MovieTool-User/)
+
+
+
+# Autor Contact
+---
+
+[![Contact Twitter](https://img.shields.io/badge/Twitter-ElHaban3ro-9cf.svg?style=for-the-badge&logo=twitter)](https://twitter.com/ElHaban3ro) [![Contact Discord](https://img.shields.io/badge/Discord-!%20Die()%231274-lightgray?style=for-the-badge&logo=discord)](https://discord.gg/NGp9YbYJ8F) [![Contact Discord](https://img.shields.io/badge/GitHub-ElHaban3ro-lightgray?style=for-the-badge&logo=github)](https://github.com/ElHaban3ro)

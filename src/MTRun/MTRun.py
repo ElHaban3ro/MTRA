@@ -1,16 +1,23 @@
 import time
 import os
+from datetime import datetime
 
 from threading import Thread
 
-from MovieTool.ombi_handler import ombi_requests
+from MovieTool.ombi_handler import ombi_requests, ombi_delete
 from MovieTool.download_torrents import download
 from MovieTool.torrent_handler import torrent_handler
 
 import configparser
 
+import requests
+
+f = open('logerrors.txt', 'w')
+
+
+
 # ============================================================
-config_file = os.path.abspath('MovieToolConfig.ini')
+config_file = os.path.abspath('./MovieToolConfig.ini')
 
 config = configparser.ConfigParser()
 config.read(config_file)
@@ -48,18 +55,30 @@ qb_pass = config['qBittorrent']['qb_password']
 
 consults = []
 while True:
-    movies_requests = ombi_requests(ombi_host, ombi_apikey)
-    print(movies_requests)
+    try:
+        movies_requests = ombi_requests(ombi_host, ombi_apikey)
+        print(movies_requests)
+        
     
+    except requests.exceptions.ConnectionError as error:
+        movies_requests = []
+        f.write(f'[{str(datetime.now())[:-7]}] {error}\n\n')
+
+
     for requests in movies_requests:
         consults = requests[:-1]
         request_data = requests[-1]
 
-        # t = Thread(target lambda= ombi_delete(request_data['showId'], ombi_host, ombi_apikey, request_data['contentType'])).start()
         
-        Thread(target = lambda: ombi_delete(request_data['showId'], ombi_host, ombi_apikey, request_data['contentType'])).start()
+        try:
+            Thread(target = lambda: ombi_delete(request_data['showId'], ombi_host, ombi_apikey, request_data['contentType'])).start()
+        
+        except requests.exceptions.ConnectionError as error:
+            f.write(f'[{str(datetime.now())[:-7]}] {error}\n\n')
         
     t_download = ''
+
+    
     for consult in consults:
         t_download = download(consult, jackett_host, jackett_apikey, qb_host, qb_user, qb_pass, downloads_cache_path, file_max_size, delete_torrents_die = delete_torrents_die)
         
@@ -83,6 +102,6 @@ while True:
         
     consults = []
     
-    #Thread(target = lambda: torrent_handler(t_download, )).start()
+    
     
     time.sleep(sleep_time)
