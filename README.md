@@ -15,35 +15,17 @@ Cuando pongas a correr nuestro programa, recomendamos que lo haga desde una **co
 
 
 
-# Downloads
+# DOWNLOADS
 
 ## MovieTool Run
-*Ejecutable para iniciar tu servidor de MovieTool (Necesario de configurar). Puedes generar tu proyecto configurado desde [nuestra web](https).*
+*Mudamos todas las descargas a [nuestra web](https) ofical!! Es posible que si está viendo esto en una etapa temprana aún no esté publicada, pero no te preocupes, pronto estará abierta al publico.*
 
-
-### Download
-
-[![Visitar nuestra web](https://img.shields.io/badge/Visitar_nuestra_web-green.svg?style=flat-square)](https)
+[![Visitar nuestra web](https://img.shields.io/badge/NUESTRA_WEB!-green.svg?style=flat-square)](https)
 
 
 
 
-## MovieTool Runner Apps
 
-*App para instalar de manera automatica todas las aplicaciones necesarias para correr [MovieTool](https://github.com/ElHaban3ro/MovieTool) de manera correcta.* A continuación se enumeran las apps que se descargan por medio de nuestro ejecutable.
-
-- **Python** | (opcional, por si ya lo tienes instalado)
-- **qBittorrent** | Necesario para manejar los torrents! (y descargarlos)
-- **Jackett** | App de la cual se hace uso de su API para acceder a los torrents *[configurar]*.
-- **Ombi** | El medio por el cual se pide el contenido. *[configurar]*
-- **Plex** | Servicio para la visualización del contenido. *[configurar]*
-
-
-### Download
-
-[![Visitar nuestra web](https://img.shields.io/badge/Visitar_nuestra_web-green.svg?style=flat-square)](https)
-
-<<<<<<< HEAD
 
 
 
@@ -51,6 +33,3 @@ Cuando pongas a correr nuestro programa, recomendamos que lo haga desde una **co
 ---
 
 [![Contact Twitter](https://img.shields.io/badge/Twitter-ElHaban3ro-9cf.svg?style=for-the-badge&logo=twitter)](https://twitter.com/ElHaban3ro) [![Contact Discord](https://img.shields.io/badge/Discord-!%20Die()%231274-lightgray?style=for-the-badge&logo=discord)](https://discord.gg/NGp9YbYJ8F) [![Contact Discord](https://img.shields.io/badge/GitHub-ElHaban3ro-lightgray?style=for-the-badge&logo=github)](https://github.com/ElHaban3ro)
-=======
-- **Linux**: [![Download MovieToolRunnerApps](https://img.shields.io/badge/DOWNLOAD-blue.svg?style=flat-square)](https://elhaban3ro.github.io/MovieTool-User/)
->>>>>>> 56e40a71a4aaaad9b56df8f3b0d30ceda77afc71
